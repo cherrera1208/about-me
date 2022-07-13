@@ -3,19 +3,25 @@
   <meta charset="UTF-8" />
   <head>
     <title>About Me</title>
+    <!--inject style sheets here, *remember* the sheets are in a folder, therefore must be called by a directory address with '/' -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!--the reset.css stylesheet must comefirst, otherwise it will overwrite the user style-->
+    <link rel="stylesheet" href="css/style.css" />
     <body>
       <h1>Hello, I'm Carlos</h1>
-      <p>
+      <p class="bio">
         I am a student of Web Development at CodeFellows. I served in the Navy
-        for 5 years as a radar altimeter technician in the avionics department
-        on board an LHD(amphibious ship). I have some college credits including
-        general studies and introductory engineering courses. My initial goal
-        was to use the GI Bill to study industrial engineering but have found
-        myself more interested in the tech industry. I plan on becoming a junior
-        web developer after CodeFellows, continuing to gain professional
-        knowledge and experience -especially new languages like python, and
-        potentially pursuing my bachelors degree in a computer related subject.
+        for 5 years as a ComNav technician in the avionics department on board
+        an LHD(amphibious ship). I have some college credits including general
+        studies and introductory engineering courses. My initial goal was to use
+        the GI Bill to study industrial engineering but have found myself more
+        interested in the tech industry. I plan on becoming a junior web
+        developer after CodeFellows, continuing to gain professional knowledge
+        and experience -especially new languages like python, and potentially
+        pursuing a bachelor's degree in a computer related subject.
       </p>
+      <!--script needs an adress like the .css files, inserted as a property inline with the script opening tag as src=""-->
+      <script src="js/app.js"></script>
     </body>
   </head>
 </html>
