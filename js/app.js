@@ -82,6 +82,7 @@ if (q5 === "y" || q5 === "yes") {
 }
 fq5();
 
+function game() {
 let userName = prompt("And now a little about you. What's your name?");
 alert("well, " + userName + ", it's a pleasure to meet you. Take care!");
 
@@ -103,3 +104,5 @@ while (attempts) {
     break;
   }
 }
+}
+game();
