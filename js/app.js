@@ -37,6 +37,7 @@ if (q2 === "y" || q2 === "yes") {
 }
 fq2();
 
+function fq3() {
 let q3 = prompt("But am I from Seattle?").toLowerCase();
 if (q3 === "n" || q3 === "no") {
   // console.log("correct");
@@ -48,6 +49,8 @@ if (q3 === "n" || q3 === "no") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq3();
 
 let q4 = prompt("My favorite burgers are Dick's").toLowerCase();
 if (q4 === "n" || q4 === "no") {
