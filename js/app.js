@@ -7,6 +7,7 @@ alert(
   "The rules are simple, answer 5 'yes or no' questions about myself, the responses are not case-sensitive and 'y' and 'n' are acceptable.\n\nReady?"
 );
 
+function fq1() {
 let q1 = prompt("First, is my name Carlos?").toLowerCase();
 if (q1 === "y" || q1 === "yes") {
   // console.log("correct");
@@ -18,7 +19,10 @@ if (q1 === "y" || q1 === "yes") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq1();
 
+function fq2() {
 let q2 = prompt("Do I live in Seattle?").toLowerCase();
 if (q2 === "y" || q2 === "yes") {
   // console.log("correct");
@@ -30,7 +34,10 @@ if (q2 === "y" || q2 === "yes") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq2();
 
+function fq3() {
 let q3 = prompt("But am I from Seattle?").toLowerCase();
 if (q3 === "n" || q3 === "no") {
   // console.log("correct");
@@ -42,7 +49,10 @@ if (q3 === "n" || q3 === "no") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq3();
 
+function fq4() {
 let q4 = prompt("My favorite burgers are Dick's").toLowerCase();
 if (q4 === "n" || q4 === "no") {
   // console.log("correct");
@@ -54,7 +64,10 @@ if (q4 === "n" || q4 === "no") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq4();
 
+function fq5() {
 let q5 = prompt("Finally, am I learning a lot at Code Fellow?").toLowerCase();
 if (q5 === "y" || q5 === "yes") {
   // console.log("correct");
@@ -66,12 +79,15 @@ if (q5 === "y" || q5 === "yes") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq5();
 
+function game() {
 let userName = prompt("And now a little about you. What's your name?");
 alert("well, " + userName + ", it's a pleasure to meet you. Take care!");
 
 let counter = 0;
-let ans = "32";
+let ans = '32';
 let attempts = 4;
 while (attempts) {
   let q = prompt("guess a number");
@@ -88,3 +104,5 @@ while (attempts) {
     break;
   }
 }
+}
+game();
