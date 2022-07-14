@@ -7,6 +7,7 @@ alert(
   "The rules are simple, answer 5 'yes or no' questions about myself, the responses are not case-sensitive and 'y' and 'n' are acceptable.\n\nReady?"
 );
 
+function fq1(){
 let q1 = prompt("First, is my name Carlos?").toLowerCase();
 if (q1 === "y" || q1 === "yes") {
   // console.log("correct");
@@ -18,6 +19,8 @@ if (q1 === "y" || q1 === "yes") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq1();
 
 let q2 = prompt("Do I live in Seattle?").toLowerCase();
 if (q2 === "y" || q2 === "yes") {
@@ -71,7 +74,7 @@ let userName = prompt("And now a little about you. What's your name?");
 alert("well, " + userName + ", it's a pleasure to meet you. Take care!");
 
 let counter = 0;
-let ans = "32";
+let ans = '32';
 let attempts = 4;
 while (attempts) {
   let q = prompt("guess a number");
