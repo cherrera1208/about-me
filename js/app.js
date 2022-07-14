@@ -7,7 +7,7 @@ alert(
   "The rules are simple, answer 5 'yes or no' questions about myself, the responses are not case-sensitive and 'y' and 'n' are acceptable.\n\nReady?"
 );
 
-function fq1(){
+function fq1() {
 let q1 = prompt("First, is my name Carlos?").toLowerCase();
 if (q1 === "y" || q1 === "yes") {
   // console.log("correct");
@@ -22,6 +22,7 @@ if (q1 === "y" || q1 === "yes") {
 }
 fq1();
 
+function fq2() {
 let q2 = prompt("Do I live in Seattle?").toLowerCase();
 if (q2 === "y" || q2 === "yes") {
   // console.log("correct");
@@ -33,6 +34,8 @@ if (q2 === "y" || q2 === "yes") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq2();
 
 let q3 = prompt("But am I from Seattle?").toLowerCase();
 if (q3 === "n" || q3 === "no") {
