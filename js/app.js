@@ -52,6 +52,7 @@ if (q3 === "n" || q3 === "no") {
 }
 fq3();
 
+function fq4() {
 let q4 = prompt("My favorite burgers are Dick's").toLowerCase();
 if (q4 === "n" || q4 === "no") {
   // console.log("correct");
@@ -63,7 +64,10 @@ if (q4 === "n" || q4 === "no") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq4();
 
+function fq5() {
 let q5 = prompt("Finally, am I learning a lot at Code Fellow?").toLowerCase();
 if (q5 === "y" || q5 === "yes") {
   // console.log("correct");
@@ -75,6 +79,8 @@ if (q5 === "y" || q5 === "yes") {
   // console.log("try again");
   alert("try again");
 }
+}
+fq5();
 
 let userName = prompt("And now a little about you. What's your name?");
 alert("well, " + userName + ", it's a pleasure to meet you. Take care!");
