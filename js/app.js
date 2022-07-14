@@ -69,3 +69,22 @@ if (q5 === "y" || q5 === "yes") {
 
 let userName = prompt("And now a little about you. What's your name?");
 alert("well, " + userName + ", it's a pleasure to meet you. Take care!");
+
+let q = prompt("guess a number");
+let attempts = 4;
+while (attempts) {
+  attempts--;
+  console.log();
+  for (let i = 0; i > attempts; i++) {
+    console.log("sdf");
+  }
+  // if (attempts != 0) {
+  // prompt(`try again. ${attempts} attempts remaining`)
+}
+if (q > 32) {
+  console.log(`high. `);
+} else if (q < 32) {
+  console.log(`low. ${attempts} attempts remaining`);
+} else if (q == 32) {
+  console.log("congrats");
+}
