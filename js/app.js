@@ -8,7 +8,7 @@ alert(
   'The rules are simple, answer 5 \'yes or no\' questions about myself, the responses are not case-sensitive and \'y\' and \'n\' are acceptable.\n\nReady?'
 );
 
-function fq1(); {
+function fq1() {
   let q1 = prompt('First, is my name Carlos?').toLowerCase();
   if (q1 === 'y' || q1 === 'yes') {
     alert('correct. Well done.');
@@ -21,7 +21,7 @@ function fq1(); {
 }
 fq1();
 
-function fq2(); {
+function fq2() {
   let q2 = prompt('Do I live in Seattle?').toLowerCase();
   if (q2 === 'y' || q2 === 'yes') {
     alert('correct');
@@ -34,7 +34,7 @@ function fq2(); {
 }
 fq2();
 
-function fq3(); {
+function fq3() {
   let q3 = prompt('But am I from Seattle?').toLowerCase();
   if (q3 === 'n' || q3 === 'no') {
     alert('correct. I\'m actually from Houston');
@@ -47,7 +47,7 @@ function fq3(); {
 }
 fq3();
 
-function fq4(); {
+function fq4() {
   let q4 = prompt('Are my favorite burgers from Dick\'s').toLowerCase();
   if (q4 === 'n' || q4 === 'no') {
     alert('correct. I\'m a Whataburger man.');
@@ -60,7 +60,7 @@ function fq4(); {
 }
 fq4();
 
-function fq5(); {
+function fq5() {
   let q5 = prompt('Finally, am I learning a lot at Code Fellow?').toLowerCase();
   if (q5 === 'y' || q5 === 'yes') {
     alert('correct. I\'m learning a ton');
@@ -77,7 +77,7 @@ fq5();
 let userName = prompt('And now a little about you. What\'s your name?');
 alert('well, ' + userName + ', it\'s a pleasure to meet you!');
 
-function fq6(); {
+function fq6() {
   let counter2 = 0;
   let ans = 32;
   let attempts = 4;
@@ -102,7 +102,7 @@ function fq6(); {
 }
 fq6();
 
-function fq7(); {
+function fq7() {
   let localBrew = ['fremont', 'reubens', 'georgetown', 'elysian', 'redhook'];
   let guesses = 6;
   while (guesses) {
